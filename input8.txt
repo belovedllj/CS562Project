@@ -1,0 +1,16 @@
+﻿SELECT ATTRIBUTES(S):
+cust,prod,2.month,0_max_quant,1_avg_quant,1_min_quant
+NUMBER OF GROUPING VARIABLES(n):
+2
+GROUPING ATTRIBUTES(V):
+cust, prod
+F-VECT([F]):
+avg_quant,max_quant,1_avg_quant,1_min_quant
+﻿SELECT CONDITION-VECT([σ]):
+1.year>1997
+1.state="NJ"
+2.quant=0_avg_quant
+Having:
+1_avg_quant*3>2_avg_quant
+1_avg_quant>3_avg_quant
+1.quant=1_max_quant

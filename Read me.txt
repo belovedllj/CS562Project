@@ -1,0 +1,8 @@
+import the project in eclipse build path for postgre data jar file
+
+Run EsqlCodeGenerator.java main method will generate java code in file and console
+
+change the input file name in line 46 ("input1.txt --- input8.txt)
+change the java code output file name in line 61
+
+we compared the first 6 generated java code's database query result with standard sql query result

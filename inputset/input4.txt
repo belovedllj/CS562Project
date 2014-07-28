@@ -1,0 +1,20 @@
+﻿SELECT ATTRIBUTES(S):
+cust,1_avg_quant,2_avg_quant
+NUMBER OF GROUPING VARIABLES(n):
+2
+GROUPING ATTRIBUTES(V):
+cust
+F-VECT([F]):
+_,1_sum_quant,2_sum_quant
+SELECT CONDITION-VECT([σ]):
+1.year=1997
+1.prod="Egg"
+1.prod="Bread"
+1.prod="Friuts"
+1.prod="Butter"
+1.prod="Cookies"
+1.prod="Yogurt"
+2.year=1997
+2.prod="Milk"
+2.prod="Pepsi"
+2.prod="coke"

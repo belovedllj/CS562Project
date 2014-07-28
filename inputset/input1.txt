@@ -1,0 +1,12 @@
+﻿SELECT ATTRIBUTES(S):
+cust,prod,1_count_quant,2_count_quant,3_count_quant
+NUMBER OF GROUPING VARIABLES(n):
+3
+GROUPING ATTRIBUTES(V):
+cust, prod
+F-VECT([F]):
+1_count_quant, 2_count_quant, 3_count_quant
+SELECT CONDITION-VECT([σ]):
+1.state="NY"
+2.state="NJ"
+3.state="CT"
